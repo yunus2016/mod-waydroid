@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt install python3
+sudo apt install python3.12-venv
 git clone https://github.com/casualsnek/waydroid_script
 cd waydroid_script
 python3 -m venv venv

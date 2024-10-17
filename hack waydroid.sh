@@ -17,12 +17,6 @@ sudo venv/bin/python3 main.py install widevine
 sudo venv/bin/python3 main.py install smartdock
 sudo venv/bin/python3 main.py install mitm --ca-cert mycert.pem
 sudo venv/bin/python3 main.py hack nodataperm
-chmod 777 -R /sdcard/Android
-chmod 777 -R /data/media/0/Android 
-chmod 777 -R /sdcard/Android/data
-chmod 777 -R /data/media/0/Android/obb 
-chmod 777 -R /mnt/*/*/*/*/Android/data
-chmod 777 -R /mnt/*/*/*/*/Android/obb
 sudo python main.py install microg
 sudo venv/bin/python3 main.py hack hidestatusbar
 sudo venv/bin/python3 main.py certified
